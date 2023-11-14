@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Reyhan Virdis</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c026568f45.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Undergraduate</p>
+          <h1>Hello, I'm <span>Reyhan Virdis</span><br /> from Bina Nusantara University</h1>
+        </div>
+      </div>
+    </div>
+    <!-----------About--------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p align="justify">
+              Hello! My name is Reyhan, I am 20 years old and currently a
+              third-year student majoring in Computer Science at BINUS
+              University. I am interested in many fields like technology and
+              Artificial Intelligence. I have acquired knowledge such as web
+              programming and learning AI, entrepreneurship, video editing and
+              blender. Other than the academics, I have also joined several
+              organizations in the past to develop my teamworking skills.
+            </p>
+            <br>
+<p align="justify">I'm looking for a job (full-time/part-time/internship) to gain experience and improve my knowledge. I'm excited to hear from you and explore the possibilities of working together. If you have any questions or comments please don't hesitate to reach out to me using my contacts below.
+</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming</span><br />Language: HTML, CSS, JavaScript</li>
+                <li><span>Technical</span><br />App: Microsoft Office, After Effects, Blender, Canva, Figma</li>
+                <li><span>Soft</span><br />Expert: Communication, Teamwork, Creativity</li>
+                <li><span>Language</span><br />English - Professional working proficiency<br>Indonesian - Native speaker</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />Activist of Internal Relation - KMBD
+                </li>
+                <li><span>2022</span><br />Activist of Himti Care - HIMTI Binus University</li>
+                <li><span>01/2022 - 03/2022</span><br />Coordinator of contest division in Magha Puja 2565 B.E./2022 - KMBD</li>
+                <li><span>10/2019 - 01/2021</span><br />Member & equipment personnel of Soekarno Crew - Dewan Ambalan SMAK 1 (Scout)</li>
+                <li><span>08/2019 - 08/2020</span><br />Committee of equipment division - SMAKONECUP 2019 & PERKAP</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>09/2021 - Current</span><br />Bina Nusantara University</li>
+                <li><span>2018 - 2021</span><br />SMAK 1 PENABUR Jakarta</li>
+                <li><span>07/2015 - 06/2018</span><br />SMPK 2 PENABUR Jakarta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------Services--------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>Front-End Web</h2>
+            <p>
+              I can make front-end website by using my knowledge of HTML, CSS, and JavaScript.
+            </p>
+          </div>
+          <div>
+            <i class="fa-regular fa-object-group"></i>
+            <h2>Design</h2>
+            <p>
+              I can design user interface of website, poster, and many more using my knowledge of Canva and Figma. 
+            </p>
+          </div>
+          <div>
+            <i class="fa-regular fa-square-check"></i>
+            <h2>Misc</h2>
+            <p>
+              I can edit videos using After Effects and animate using Blender.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------Portofolio--------->
+    <div id="portofolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>My Portofolio Website</h3>
+              <p>This portofolio website is one of my work, there are others website but it is still in making.</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>My Designs</h3>
+              <p>Here are some of my designs using Canva and Figma.</p>
+              <a href="https://drive.google.com/drive/folders/1JDYZQQ5yl7vuTVSLx6ZkZLbsNDF66Q23?usp=sharing" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>My Edits</h3>
+              <p>Here are my video editing using After Effects and animation using Blender</p>
+              <a href="https://drive.google.com/drive/folders/1CBfm1YDBkCp2oK6AtkQE_iRWSSCoND19?usp=sharing" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://drive.google.com/drive/folders/18aVIV4YbQ-MCJ66xl8-quaKGQqOn7oIf?usp=sharing" class="btn" target="_blank">See more</a>
+      </div>
+    </div>
+    <!-----------Contact--------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i> reyhanvirdis@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 087888733839</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/rasenjr.rasenjr.1?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="https://www.instagram.com/reyhanvirdis" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/reyhanvirdis/" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/CV - Reyhan Virdis.pdf" download class="btn btn3">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          RV WEB powered by <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-square-js"></i> <i class="fa-brands fa-github"></i>
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemeu.style.right = "0";
+      }
+      function closemenu(){
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzeX7evN-SKiT-0AVyV4VpG8tZzlW0qW_l7vmjsL3blCzRluLRQgFq_wxRnNT30VYUr/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
